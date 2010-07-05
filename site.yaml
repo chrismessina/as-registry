@@ -10,9 +10,18 @@ handlers:
 #  static_files: verb/\1.html
 #  upload: verb/\1.html
 
+# =====
+# VERBS
+# =====
+
 - url: /verb/post
   static_files: verb/post.html
   upload: verb/post.html
+
+# =======
+# OBJECTS
+# =======
+
 
 - url: /favicon\.ico
   static_files: favicon.ico
