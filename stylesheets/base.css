@@ -116,7 +116,7 @@ footer h3, footer h3 a {
 	font-size: 10px;
 	text-decoration: none;
 }
-footer h3 a:hover {
+footer a:hover {
 	text-decoration: underline;
 }
 footer nav {
