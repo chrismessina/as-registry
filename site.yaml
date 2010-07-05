@@ -7,11 +7,15 @@ handlers:
   static_files: static/robots.txt
   upload: static/robots.txt
 
+- url: /
+  script: index.html
+
 - url: /scripts
   static_dir: static/scripts
 
 - url: /stylesheets
   static_dir: static/stylesheets
 
-- url: /images
-  static_dir: static/images
+- url: /images/(.*)
+  static_files: static/images/\1
+  upload: static/images/(.*)
