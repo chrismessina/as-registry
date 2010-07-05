@@ -84,7 +84,7 @@ header nav ul li a span {
 }
 #content h3 {
 	color: #02B0F0;
-	font-size: 16px;
+	font-size: 20px;
 }
 #content #publishers {
 	border-right: 1px solid #f1f1f1;
@@ -104,6 +104,12 @@ footer {
 }
 footer a, footer a:visited {
 	color: #bbb;
+}
+footer:hover h3, footer:hover li {
+	color: #666;
+}
+footer:hover a, footer:hover a:visited {
+	color: #333;
 }
 footer h3, footer h3 a {
 	color: #aaa;
