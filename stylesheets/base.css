@@ -1,6 +1,10 @@
 @import url("all.css");
 @import url("advanced.css");
-	
+
+body {
+	padding-top: 6px;
+}
+
 /* @group Header */
 
 header {
@@ -13,11 +17,15 @@ header {
 }
 header #site-name {
 	text-indent: -1000em;
+	float:left;
+	width:200px;
+	margin-top:4px;
 	height: 32px;
 	background: url(../images/site-name.png) 0 50% no-repeat;
 }
 header nav {
-	
+	float:right;
+	margin-top:2px;
 }
 header nav ul, header nav li {
 	border:0;
@@ -52,7 +60,12 @@ header nav ul li a span {
 	
 /* @group Content */
 	
-
+h2.slogan {
+	padding:20px 0 36px;
+	font-size:20px;
+	text-align:center;
+	color:#222;
+}
 	
 /* @end */
 	
