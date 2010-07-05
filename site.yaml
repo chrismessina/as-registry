@@ -4,8 +4,8 @@ handlers:
   upload: .*
 
 - url: /verb/(.*)
-  script: /verb/\1.html
-  upload: /verb/\1.html
+  static_files: verb/\1.html
+  upload: verb/\1.html
 
 - url: /favicon\.ico
   static_files: favicon.ico
@@ -16,10 +16,14 @@ handlers:
   upload: static/robots.txt
 
 - url: /stylesheets
-  static_dir: static/stylesheets
+  static_dir: stylesheets
 
 - url: /scripts
-  static_dir: static/scripts
+  static_dir: scripts
 
 - url: /images
-  static_dir: static/images
+  static_dir: images
+  
+- url: /images/(.*)
+  static_files: images/\1
+  upload: images/(.*)
