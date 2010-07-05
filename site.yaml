@@ -4,7 +4,7 @@ handlers:
   upload: .*
 
 - url: /verb/(.*)
-  static_files: /verb/\1.html
+  script: /verb/\1.html
   upload: /verb/\1.html
 
 - url: /favicon\.ico
