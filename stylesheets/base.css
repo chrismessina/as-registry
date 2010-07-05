@@ -4,7 +4,8 @@
 body {
 	padding-top: 6px;
 }
-h1, h2, h3, h4, h5, h6 {
+header h1, header h2, header h3, header h4, header h5, header h6,
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6, {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
 }
