@@ -5,13 +5,3 @@ handlers:
 
 - url: '/'
   static_files: '/'
-
-- url: '/scripts'
-  static_dir: 'static/scripts'
-
-- url: '/stylesheets'
-  static_dir: 'static/stylesheets'
-
-- url: '/images/(.*)'
-  static_files: 'static/images/\1'
-  upload: 'static/images/(.*)'
