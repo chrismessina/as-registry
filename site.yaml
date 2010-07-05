@@ -3,9 +3,6 @@ handlers:
   static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
   upload: '.*'
 
-- url: '/'
-  static_files: '/'
-
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon.ico
