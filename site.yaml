@@ -1,12 +1,4 @@
 handlers:
-- url: '/favicon\.ico'
-  static_files: 'favicon.ico'
-  upload: 'favicon.ico'
-
-- url: /robots\.txt
-  static_files: static/robots.txt
-  upload: static/robots.txt
-
 - url: '/'
   static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
   upload: '.*'
