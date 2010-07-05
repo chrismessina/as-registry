@@ -11,9 +11,9 @@ header {
 	margin: 8px 0 24px;
 	background-color: #D61200;
 	border: 6px solid #D61200;
-	border-radius: 12px;
-	-moz-border-radius: 12px;
-	-webkit-border-radius: 12px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 header #site-name {
 	text-indent: -1000em;
@@ -51,8 +51,8 @@ header nav ul li a:link, header nav ul li a:visited {
 header nav ul li a span {
 	display:block;
 	height:30px;
-	margin-right:14px;
-	padding-left:14px;	
+	margin-right:6px;
+	padding-left:6px;	
 }
 
 	
