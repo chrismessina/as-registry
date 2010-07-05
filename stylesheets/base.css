@@ -87,15 +87,19 @@ footer {
 	margin: 48px 0 0;
 	padding: 18px 36px 48px;
 	font-size: 11px;
-	color: #DDD;
+	color: #6d6d6d;
 	background-color: #F1F1F1;
 }
 footer a, footer a:visited {
-	color: #DDD;
+	color: #6d6d6d;
 }
-footer h3 {
+footer h3, footer h3 a {
 	font-size: 10px;
-	color: #CCC;
+	color: #888;
+	text-decoration: none;
+}
+footer h3 a:hover {
+	text-decoration: underline;
 }
 footer nav {
 	
