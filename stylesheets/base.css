@@ -62,12 +62,16 @@ header nav ul li a span {
 /* @end */
 	
 /* @group Content */
-	
+
+#content {
+	font-size: 13px;
+}
+
 #content h2, #content h3, #content ul, #content ol, #content p {
 	margin-bottom: 12px;
 }
 #content ul, #content ol, #content p {
-	line-height: 18px;
+	line-height: 22px;
 }
 #content h2.slogan {
 	padding:20px 0 36px;
@@ -84,7 +88,7 @@ header nav ul li a span {
 /* @group Footer */
 	
 footer {
-	margin: 48px 0 0;
+	margin: 48px 0 0 -32px;
 	padding: 18px 36px 48px;
 	font-size: 11px;
 	color: #6d6d6d;
