@@ -83,7 +83,11 @@ header nav ul li a span {
 	color:#222;
 }
 #content h3 {
-	color: #09c;
+	color: #02B0F0;
+	font-size: 16px;
+}
+#content #publishers {
+	border-right: 1px solid #f1f1f1;
 }
 
 /* @end */
@@ -91,7 +95,7 @@ header nav ul li a span {
 /* @group Footer */
 	
 footer {
-	margin: 48px 0 0 -32px;
+	margin: 64px 0 0 -32px;
 	padding: 18px 36px 48px;
 	font-size: 11px;
 	color: #6d6d6d;
@@ -118,7 +122,7 @@ footer li a {
 
 }
 footer #license {
-	margin-top: 32px;
+	margin-top: 48px;
 	text-align: center;
 	color: #888;
 }
