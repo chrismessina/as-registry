@@ -7,9 +7,6 @@ handlers:
   static_files: static/robots.txt
   upload: static/robots.txt
 
-- url: '/'
-  static_dir: '/'
-
 - url: /scripts
   static_dir: static/scripts
 
