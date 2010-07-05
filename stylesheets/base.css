@@ -3,6 +3,8 @@
 
 body {
 	padding-top: 6px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
 }
 
 /* @group Header */
@@ -106,18 +108,33 @@ footer h3, footer h3 a {
 	color: #aaa;
 	font-size: 10px;
 	text-decoration: none;
+    -webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
 }
 footer a, footer a:visited {
 	color: #bbb;
+    -webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
 }
 footer:hover h3, footer:hover h3 a, footer:hover h3 a:visited {
 	color:#02B0F0;
+    -webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
 }
-footer:hover li {
+footer:hover ul, footer:hover li {
 	color: #666;
+    -webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
 }
 footer:hover a, footer:hover a:visited {
 	color: #333;
+    -webkit-transition: color 500ms ease-in-out;
+    -moz-transition: color 500ms ease-in-out;
+    -o-transition: color 500ms ease-in-out;
 }
 footer a:hover {
 	text-decoration: underline;
