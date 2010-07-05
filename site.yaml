@@ -1,11 +1,4 @@
 handlers:
-- url: '/'
-  static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
-  upload: '.*'
-
-- url: '/'
-  static_files: '/'
-
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon.ico
@@ -13,6 +6,13 @@ handlers:
 - url: /robots\.txt
   static_files: static/robots.txt
   upload: static/robots.txt
+
+- url: '/'
+  static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
+  upload: '.*'
+
+- url: '/'
+  static_files: '/'
 
 - url: /scripts
   static_dir: static/scripts
