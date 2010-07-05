@@ -3,12 +3,16 @@ handlers:
   static_files: index.html index.htm readme.txt readme.markdown readme.md
   upload: .*
 
-- url: /verb
-  static_dir: verb
+#- url: /verb
+#  static_dir: verb
 
-- url: /verb/(.*)
-  static_files: verb/\1.html
-  upload: verb/\1.html
+#- url: /verb/(.*)
+#  static_files: verb/\1.html
+#  upload: verb/\1.html
+
+- url: /verb/post
+  static_files: verb/post.html
+  upload: verb/post.html
 
 - url: /favicon\.ico
   static_files: favicon.ico
