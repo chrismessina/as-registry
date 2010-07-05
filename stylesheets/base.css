@@ -6,36 +6,47 @@
 header {
 	margin: 8px 0 24px;
 	background-color: #D61200;
-	padding: 4px 6px;
+	border: 6px solid #D61200;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
 }
-
 header #site-name {
 	text-indent: -1000em;
 	height: 32px;
-	background: url(../images/site-name.png) 0 50%;
+	background: url(../images/site-name.png) 0 50% no-repeat;
 }
-
 header nav {
 	
 }
-
-header nav ul {
-	margin: 0;
-	padding: 0;
+header nav ul, header nav li {
+	border:0;
+	margin:0;
+	padding:0;
+	list-style:none;
 }
-
 header nav ul li {
-	margin: 0;
-	padding: 0;
-	display: inline;
-	margin-left: 8px;
+	float: left;
+	margin-right: 2px;
 }
-header nav ul li a {
+header nav ul li a:link, header nav ul li a:visited {
 	text-transform: uppercase;
 	font-size: 13px;
 	letter-spacing: 1px;
 	padding: 2px 6px;
+	color: #fff;
+	line-height: 30px;
+	height: 30px;
+	text-decoration: none;
+	display: block;
 }
+header nav ul li a span {
+	display:block;
+	height:30px;
+	margin-right:14px;
+	padding-left:14px;	
+}
+
 	
 /* @end */
 	
@@ -48,10 +59,17 @@ header nav ul li a {
 /* @group Footer */
 	
 footer {
-	font-size: 0.8em;
-	color: ;
+	margin: 48px 0 0;
+	font-size: 10px;
+	color: #666;
+	background-color: #F1F1F1;
 }
-
+footer h3 {
+	font-size: 10px;
+}
+footer nav {
+	
+}
 	
 /* @end */
 
