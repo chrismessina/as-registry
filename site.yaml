@@ -1,7 +1,0 @@
-handlers:
-- url: '/'
-  static_files: 'index.html index.htm readme.txt readme.markdown readme.md'
-  upload: '.*'
-
-- url: '/'
-  static_files: '/'
