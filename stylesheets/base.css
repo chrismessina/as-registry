@@ -87,21 +87,27 @@ footer {
 	margin: 48px 0 0;
 	padding: 18px 36px 48px;
 	font-size: 11px;
-	color: #4D4D4D;
+	color: #DDD;
 	background-color: #F1F1F1;
 }
 footer a, footer a:visited {
-	color: #4D4D4D;
+	color: #DDD;
 }
 footer h3 {
 	font-size: 10px;
-	color: #676767;
+	color: #CCC;
 }
 footer nav {
 	
 }
 footer ul {
 	margin:4px 0 12px 12px;
-}	
+}
+footer #license {
+	margin-top: 32px;
+	text-align: center;
+	color: #888;
+}
+
 /* @end */
 
