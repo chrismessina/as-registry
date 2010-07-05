@@ -85,16 +85,23 @@ header nav ul li a span {
 	
 footer {
 	margin: 48px 0 0;
-	font-size: 10px;
-	color: #666;
+	padding: 18px 36px 48px;
+	font-size: 11px;
+	color: #4D4D4D;
 	background-color: #F1F1F1;
+}
+footer a, footer a:visited {
+	color: #4D4D4D;
 }
 footer h3 {
 	font-size: 10px;
+	color: #676767;
 }
 footer nav {
 	
 }
-	
+footer ul {
+	margin:4px 0 12px 12px;
+}	
 /* @end */
 
