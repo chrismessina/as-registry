@@ -16,6 +16,9 @@ header {
 	-webkit-border-radius: 6px;
 }
 header #site-name {
+	display: inline;
+}
+header #site-name a {
 	text-indent: -1000em;
 	float:left;
 	width:200px;
@@ -98,7 +101,6 @@ footer a, footer a:visited {
 	color: #6d6d6d;
 }
 footer h3, footer h3 a {
-	font-size: 10px;
 	color: #888;
 	text-decoration: none;
 }
@@ -110,6 +112,10 @@ footer nav {
 }
 footer ul {
 	margin:4px 0 12px 12px;
+}
+footer li a {
+	text-decoration: none;
+
 }
 footer #license {
 	margin-top: 32px;
