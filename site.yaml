@@ -30,9 +30,9 @@ handlers:
 # VERBS
 # =====
 
-- url: /verb/post(.*)
-  static_files: verb/post.html
-  upload: verb/post.html
+- url: /verb/(favorite|follow|like|add-friend|join|play|post|rsvp|save|share|tag|update)(.*)
+  static_files: verb/(favorite|follow|like|add-friend|join|play|post|rsvp|save|share|tag|update)/.html
+  upload: verb/(favorite|follow|like|add-friend|join|play|post|rsvp|save|share|tag|update)/.html
 
 - url: /verbs(.*)
   static_files: verbs/index.html
@@ -42,9 +42,9 @@ handlers:
 # OBJECTS
 # =======
 
-- url: /object-type/photo(.*)
-  static_files: object-type/photo.html
-  upload: object-type/photo.html
+- url: /object-type/(article|audio|bookmark|comment|event|file|folder|group|list|note|person|photo|photo-album|place|playlist|product|review|service|song|status|video)(.*)
+  static_files: object-type/(article|audio|bookmark|comment|event|file|folder|group|list|note|person|photo|photo-album|place|playlist|product|review|service|song|status|video)/
+  upload: object-type/(article|audio|bookmark|comment|event|file|folder|group|list|note|person|photo|photo-album|place|playlist|product|review|service|song|status|video)/.html
 
 - url: /object-types(.*)
   static_files: object-types/index.html
