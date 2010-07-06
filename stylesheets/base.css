@@ -48,6 +48,9 @@ header nav ul, header nav li {
 header nav ul li {
 	float: left;
 }
+header nav ul li.active a {
+	text-decoration: underline;
+}
 header nav ul li a:link, header nav ul li a:visited {
 	text-transform: uppercase;
 	font-size: 13px;
