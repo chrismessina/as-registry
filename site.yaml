@@ -3,9 +3,6 @@ handlers:
   static_files: index.html index.htm readme.txt readme.markdown readme.md
   upload: .*
 
-#- url: /verb
-#  static_dir: verb
-
 #- url: /verb/(.*)
 #  static_files: verb/\1.html
 #  upload: verb/\1.html
@@ -46,11 +43,9 @@ handlers:
   static_files: object-type/(article|audio|bookmark|comment|event|file|folder|group|list|note|person|photo|photo-album|place|playlist|product|review|service|song|status|video)/
   upload: object-type/(article|audio|bookmark|comment|event|file|folder|group|list|note|person|photo|photo-album|place|playlist|product|review|service|song|status|video)/.html
 
-- url: /object-types(.*)
+- url: /(objects|object-types)(.*)
   static_files: object-types/index.html
   upload: object-types/index.html
-
-
 
 # ====
 # META

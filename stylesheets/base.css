@@ -15,10 +15,9 @@ header h1, header h2, header h3, header h4, header h5, header h6,
 header {
 	margin: 8px 0 24px;
 	background-color: #D61200;
-	border: 6px solid #D61200;
-	border-radius: 6px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
 }
 header #site-name {
 	display: inline;
@@ -26,10 +25,10 @@ header #site-name {
 header #site-name a {
 	text-indent: -1000em;
 	float:left;
-	width:200px;
+	width:210px;
 	margin-top:4px;
 	height: 32px;
-	background: url(../images/site-name.png) 0 50% no-repeat;
+	background: url(../images/site-name.png) 6px 50% no-repeat;
 }
 header nav {
 	float:right;
@@ -48,9 +47,6 @@ header nav ul, header nav li {
 header nav ul li {
 	float: left;
 }
-header nav ul li.active a {
-	text-decoration: underline;
-}
 header nav ul li a:link, header nav ul li a:visited {
 	text-transform: uppercase;
 	font-size: 13px;
@@ -61,6 +57,10 @@ header nav ul li a:link, header nav ul li a:visited {
 	height: 30px;
 	text-decoration: none;
 	display: block;
+	text-shadow: #333 1px 1px 0px;
+}
+header nav ul li.active a:link, header nav ul li.active a:visited {
+	text-decoration: underline;
 }
 header nav ul li a span {
 	display:block;
