@@ -14,7 +14,7 @@ handlers:
 # CONTENT
 # =======
 
-- url: /getting-started/(.*)
+- url: /getting-started/
   static_files: getting-started/index.html
   upload: getting-started/index.html
 
