@@ -18,13 +18,21 @@ handlers:
   static_files: getting-started/index.html
   upload: getting-started/index.html
 
-- url: /getting-started/
+- url: /getting-started/(.*)
   static_files: getting-started/index.html
   upload: getting-started/index.html
+
+- url: /getting-started/consumers
+  static_files: getting-started/consumers.html
+  upload: getting-started/consumers.html
 
 - url: /getting-started/consumers/(.*)
   static_files: getting-started/consumers.html
   upload: getting-started/consumers.html
+
+- url: /getting-started/publishers
+  static_files: getting-started/publishers.html
+  upload: getting-started/publishers.html
 
 - url: /getting-started/publishers/(.*)
   static_files: getting-started/publishers.html
