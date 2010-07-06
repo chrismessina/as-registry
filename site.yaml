@@ -18,7 +18,7 @@ handlers:
   static_files: getting-started/index.html
   upload: getting-started/index.html
 
-- url: /getting-started/(.*)
+- url: /getting-started/
   static_files: getting-started/index.html
   upload: getting-started/index.html
 
