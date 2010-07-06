@@ -14,41 +14,47 @@ handlers:
 # CONTENT
 # =======
 
-- url: /getting-started
-  static_files: getting-started/index.html
-  upload: getting-started/index.html
-
-- url: /getting-started/
-  static_files: getting-started/index.html
-  upload: getting-started/index.html
-
-- url: /getting-started/consumers
+- url: /getting-started/consumers(.*)
   static_files: getting-started/consumers.html
   upload: getting-started/consumers.html
 
-- url: /getting-started/consumers/(.*)
-  static_files: getting-started/consumers.html
-  upload: getting-started/consumers.html
-
-- url: /getting-started/publishers
+- url: /getting-started/publishers(.*)
   static_files: getting-started/publishers.html
   upload: getting-started/publishers.html
 
-- url: /getting-started/publishers/(.*)
-  static_files: getting-started/publishers.html
-  upload: getting-started/publishers.html
+- url: /getting-started(.*)
+  static_files: getting-started/index.html
+  upload: getting-started/index.html
 
 # =====
 # VERBS
 # =====
 
-- url: /verb/post
+- url: /verb/post(.*)
   static_files: verb/post.html
   upload: verb/post.html
+
+- url: /verbs(.*)
+  static_files: verbs/index.html
+  upload: verbs/index.html
 
 # =======
 # OBJECTS
 # =======
+
+- url: /object-type/photo(.*)
+  static_files: object-type/photo.html
+  upload: object-type/photo.html
+
+- url: /object-types(.*)
+  static_files: object-types/index.html
+  upload: object-types/index.html
+
+
+
+# ====
+# META
+# ====
 
 
 - url: /favicon\.ico
