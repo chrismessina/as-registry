@@ -81,15 +81,20 @@ header nav ul li a span {
 #content ul, #content ol, #content p {
 	line-height: 22px;
 }
+#content h2 {
+	color: #1A1A1A;
+	font-size: 30px;
+	margin-bottom: 12px;
+}
 #content h2.slogan {
 	padding:20px 0 36px;
 	font-size:20px;
 	text-align:center;
-	color:#222;
 }
 #content h3 {
 	color: #02B0F0;
 	font-size: 20px;
+	margin-bottom: 12px;
 }
 #content #publishers {
 	border-right: 1px solid #f1f1f1;
